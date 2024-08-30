@@ -1,5 +1,6 @@
 # FPL-Guru
 A Tkinter app using FPL (Fantasy Premier League) API to analyze real-time data and optimally produce a playing 11 for weekly PL matches
+### For more information, refer to the Documentation directory
 
 ## What is FPL?
 FPL is an online fantasy football game where participants, acting as virtual team managers, create teams using players from the Premier League. Players have different price tags based on their perceived skill and performance. With a budget constraint, participants must manage wisely to build competitive teams. Points are earned based on real-life player performances, including goals, assists, and clean sheets, while negative actions lead to deductions. Managers can change their team lineup weekly for added flexibility.
@@ -22,5 +23,3 @@ FPL is an online fantasy football game where participants, acting as virtual tea
 3) Defining a form rating index
 4) Ranking players on a relative form rating index
 5) Optimizing the best team per game week based on budget restrictions and club and positional constraints
-
-### For more information, refer to the Documentation directory
