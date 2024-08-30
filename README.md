@@ -1,5 +1,5 @@
 # FPL-Guru
-A Tkinter app using FPL (Fantasy Premier League) API to analyze real-time data and optimally produce a playing 11 for weekly PL matches
+A Tkinter app using FPL (Fantasy Premier League) API and linear programming along with convex numerical optimization to analyze real-time data and optimally produce a playing 11 for weekly PL matches
 ##### For more information, refer to the Documentation directory or watch a [video](https://youtu.be/OiX2t5Wn2ks) explanation
 
 ## What is FPL?
