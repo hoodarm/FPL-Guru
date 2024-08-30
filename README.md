@@ -17,9 +17,12 @@ FPL is an online fantasy football game where participants, acting as virtual tea
 4. Also allows for comparison between different players head-to-head for preferential selection
 5. Considers individual player performances in recent weeks and percentage player selection by FPLers before producing the optimal team.
 
-## Major algorithmic problems tackled
-1) Parsing the required data, official FPL statistics, from online sources
-2) Data management: storing players by different criteria (club and position)
+## Major algorithmic problems tackled (refer to Documentation for detailed info)
+1) Working with FPL API and extracting official data
+2) Data management and storage of extracted statistics
 3) Defining a form rating index
 4) Ranking players on a relative form rating index
-5) Optimizing the best team per game week based on budget restrictions and club and positional constraints
+5) Determining the optimum team per week based on financial, positional, and club constraints
+6) Creating a dynamic GUI based on buttons/choices clicked
+7) Displaying optimum team (working with background image and grid placing)
+8) Modifying a table view based on user’s selection of options
