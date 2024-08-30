@@ -2,7 +2,7 @@
 A Tkinter app using FPL (Fantasy Premier League) API to analyze real-time data and optimally produce a playing 11 for weekly PL matches
 
 ## What is FPL?
-FPL is an online fantasy football game where participants, acting as virtual team managers, create teams using players from the Premier League. Players have different price tags based on their perceived skill and performance. With a budget constraint, participants must manage wisely to build competitive teams. Points are earned based on real-life player performances, including goals, assists, and clean sheets, while negative actions lead to deductions. Managers can change their team lineup weekly for added flexibility. (Scout, 2024)
+FPL is an online fantasy football game where participants, acting as virtual team managers, create teams using players from the Premier League. Players have different price tags based on their perceived skill and performance. With a budget constraint, participants must manage wisely to build competitive teams. Points are earned based on real-life player performances, including goals, assists, and clean sheets, while negative actions lead to deductions. Managers can change their team lineup weekly for added flexibility.
 
 ### FPL rules and constraints for team selection
 1.  <ins>Budget constraint</ins>: The total value of the squad must not exceed £100 million.
@@ -18,8 +18,9 @@ FPL is an online fantasy football game where participants, acting as virtual tea
 
 ## Major algorithmic problems tackled
 1) Parsing the required data, official FPL statistics, from online sources
-  To analyze player statistics and optimize team selection in FPL, a dynamic connection is crucial for real-time updates after each Premier League match. Utilizing the FPL API, FPL Guru gathers and stores essential player data, including general information (Name, Playing position, Club, FPL ID) and player statistics (Goals, Assists, Clean sheets, Red cards, Yellow cards, etc.) in a CSV file. The information is then stored in a dictionary with player names as keys and a nested dictionary holding player data as values. For example, {“player 1”: {“club”: “Arsenal”, “goals_scored”: 10, “assists”: 4, …}, “player 2”: {“club”: “Liverpool”, “goals_scored”: 14, “assists”: 1, …}, …}; thus, ensuring that the software makes informed choices based on the latest data with each execution.
 2) Data management: storing players by different criteria (club and position)
 3) Defining a form rating index
 4) Ranking players on a relative form rating index
 5) Optimizing the best team per game week based on budget restrictions and club and positional constraints
+
+### For more information, refer to the Documentation directory
