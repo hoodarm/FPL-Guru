@@ -17,7 +17,7 @@ FPL is an online fantasy football game where participants, acting as virtual tea
 4. Also allows for comparison between different players head-to-head for preferential selection
 5. Considers individual player performances in recent weeks and percentage player selection by FPLers before producing the optimal team.
 
-## Major algorithmic problems tackled (refer to [Documentation](https://github.com/hoodarm/FPL-Guru/tree/main/Documentation) for detailed info)
+## Major techincal challenges tackled (refer to [Documentation](https://github.com/hoodarm/FPL-Guru/tree/main/Documentation) for detailed info)
 1) Working with FPL API and extracting official data
 2) Data management and storage of extracted statistics
 3) Defining a form rating index
